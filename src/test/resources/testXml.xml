@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<XpathChecker>
+    <Node1 tutId="01" type="java">
+        <title>Teścik</title>
+        <description>Testowy XML</description>
+        <date>04/04/2016</date>
+        <author>Janusz Nosacz</author>
+    </Node1>
+    <Node2 tutId="02" type="java">
+        <title>XML</title>
+        <description>Introduction to XPath</description>
+        <date>04/05/2016</date>
+        <author>XMLAuthor</author>
+    </Node2>
+    <Errors>
+        <Error1>
+            <Description>
+                Error1 Description
+            </Description>
+        </Error1>
+        <Error2>
+            <Description>
+                Error2 Description
+            </Description>
+        </Error2>
+    </Errors>
+</XpathChecker>
