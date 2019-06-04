@@ -17,7 +17,7 @@ public class CheckerTest {
 
     @Before
     public void setUp(){
-        testFile = new File("src\\test\\resources\\testXml.xml");
+        testFile = new File(getClass().getClassLoader().getResource("testXml.xml").getFile());
         checker = new Checker();
     }
 
@@ -26,7 +26,7 @@ public class CheckerTest {
         String returnValue = "";
         String xpath = "/XpathChecker/Node1[@tutId='01']/author";
         returnValue = checker.getNode(xpath, testFile);
-        assertEquals("Janusz Nosacz", returnValue);
+        assertEquals("Janusz1 Nosacz1", returnValue);
         assertTrue(true);
     }
 }
